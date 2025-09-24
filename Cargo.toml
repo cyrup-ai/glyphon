@@ -24,6 +24,8 @@ pollster = "0.4.0"
 
 [dependencies.wgpu]
 git = "https://github.com/cyrup-ai/wgpu"
+branch = "main"
+package = "wgpu"
 default-features = false
 features = [ "wgsl",]
 
@@ -33,6 +35,8 @@ default-features = false
 
 [dev-dependencies.wgpu]
 git = "https://github.com/cyrup-ai/wgpu"
+branch = "main"
+package = "wgpu"
 
 [dev-dependencies.resvg]
 version = "0.45.1"
