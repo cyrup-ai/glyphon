@@ -339,7 +339,7 @@ checksum = "b94f61472cee1439c0b966b47e3aca9ae07e45d070759512cd390ea2bebc6675"
 [[package]]
 name = "codespan-reporting"
 version = "0.12.0"
-source = "git+https://github.com/cyrup-ai/codespan?branch=main#7f52c672f237d722a74e3e07d83c88c4faaeb916"
+source = "git+https://github.com/cyrup-ai/codespan?branch=main#0def8c4dd80be0bc5fbf0a927458799841179c89"
 dependencies = [
  "serde",
  "termcolor",
@@ -1118,7 +1118,7 @@ dependencies = [
 [[package]]
 name = "naga"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "arrayvec",
  "bit-set",
@@ -2588,7 +2588,7 @@ dependencies = [
 [[package]]
 name = "wgpu"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "arrayvec",
  "bitflags 2.9.4",
@@ -2616,7 +2616,7 @@ dependencies = [
 [[package]]
 name = "wgpu-core"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "arrayvec",
  "bit-set",
@@ -2646,7 +2646,7 @@ dependencies = [
 [[package]]
 name = "wgpu-core-deps-apple"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "wgpu-hal",
 ]
@@ -2654,7 +2654,7 @@ dependencies = [
 [[package]]
 name = "wgpu-core-deps-emscripten"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "wgpu-hal",
 ]
@@ -2662,7 +2662,7 @@ dependencies = [
 [[package]]
 name = "wgpu-core-deps-windows-linux-android"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "wgpu-hal",
 ]
@@ -2670,7 +2670,7 @@ dependencies = [
 [[package]]
 name = "wgpu-hal"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "android_system_properties",
  "arrayvec",
@@ -2717,7 +2717,7 @@ dependencies = [
 [[package]]
 name = "wgpu-types"
 version = "26.0.1"
-source = "git+https://github.com/cyrup-ai/wgpu#9a2d982d02e1d8f791495d1049360c3d8b2e8e78"
+source = "git+https://github.com/cyrup-ai/wgpu?branch=main#ed1c8b6ae35e393eda9f1b73bd58646d7a17200b"
 dependencies = [
  "bitflags 2.9.4",
  "bytemuck",
