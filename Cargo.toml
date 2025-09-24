@@ -15,7 +15,7 @@ license = "MIT OR Apache-2.0 OR Zlib"
 [dependencies]
 unicode-width = "0.2.1"
 etagere = "0.2.15"
-cosmyc-text = { path = "../cosmyc-text" }
+cosmyc-text = { git = "https://github.com/cyrup-ai/cosmyc-text", branch = "main" }
 rustc-hash = "2.1.1"
 
 [dev-dependencies]
@@ -23,7 +23,7 @@ winit = "0.30.12"
 pollster = "0.4.0"
 
 [dependencies.wgpu]
-path = "../wgpu/wgpu"
+git = "https://github.com/cyrup-ai/wgpu"
 default-features = false
 features = [ "wgsl",]
 
@@ -31,11 +31,8 @@ features = [ "wgsl",]
 version = "0.16.1"
 default-features = false
 
-[dependencies.zeroshot-workspace-hack]
-path = "../../workspace-hack"
-
 [dev-dependencies.wgpu]
-path = "../wgpu/wgpu"
+git = "https://github.com/cyrup-ai/wgpu"
 
 [dev-dependencies.resvg]
 version = "0.45.1"
