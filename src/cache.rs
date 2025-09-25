@@ -253,4 +253,12 @@ impl Cache {
             })
             .clone()
     }
+
+    /// Get the number of cached render pipelines
+    pub fn cache_size(&self) -> usize {
+        match self.0.cache.lock() {
+            Ok(cache) => cache.len(),
+            Err(_) => 0, // Handle poisoned mutex gracefully
+        }
+    }
 }
